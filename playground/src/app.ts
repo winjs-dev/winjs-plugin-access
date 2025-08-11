@@ -1,10 +1,3 @@
-/**
- *
- * @authors liwb (you@example.org)
- * @date    2024/8/21 13:35
- * @version $ IIFE
- */
-
 import { useAccess, access as accessApi } from 'winjs';
 
 // 设置默认角色权限

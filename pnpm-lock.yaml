@@ -46,6 +46,9 @@ importers:
         specifier: '*'
         version: 0.16.7(@babel/core@7.28.0)(@babel/parser@7.28.0)(@rsbuild/core@1.4.14)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/node@22.17.0)(jiti@2.5.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.46.2)(sass-embedded@1.89.0)(stylus@0.64.0)(terser@5.43.1)(tsx@4.17.0)(typescript@5.9.2)(vite@6.3.5(@types/node@22.17.0)(jiti@2.5.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.89.0)(stylus@0.64.0)(terser@5.43.1)(tsx@4.17.0))(webpack@5.101.0)
     devDependencies:
+      '@winner-fed/plugin-access':
+        specifier: workspace:*
+        version: link:..
       typescript:
         specifier: ^5.0.3
         version: 5.9.2
