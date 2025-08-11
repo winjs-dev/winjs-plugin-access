@@ -3,13 +3,21 @@
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "access",
+    "permission",
+    "auth",
+    "authorization",
+    "rbac",
+    "vue3",
+    "vue",
+    "router",
+    "directive",
+    "component",
+    "guard",
+    "role",
     "winner-fed",
     "winjs-dev",
-    "rslib",
-    "rsbuild",
-    "typescript",
-    "biome"
+    "typescript"
   ],
   "version": "1.0.0",
   "repository": {
