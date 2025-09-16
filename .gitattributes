@@ -1,0 +1,11 @@
+# 忽略生成的文件和依赖
+dist/* linguist-generated=true
+node_modules/* linguist-vendored=true
+pnpm-lock.yaml linguist-generated=true
+
+# 忽略模板文件
+templates/* linguist-generated=true
+
+# 忽略测试文件的统计
+test/* linguist-detectable=false
+playground/* linguist-detectable=false
