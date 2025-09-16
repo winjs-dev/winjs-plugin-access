@@ -24,8 +24,16 @@ export default (api: IApi) => {
       schema({ zod }) {
         return zod
           .object({
-            roles: zod.object({}),
+            roles: zod
+              .record(zod.string(), zod.array(zod.string()))
+              .describe(
+                '角色与权限映射配置。键为角色名称（如 admin、user、guest），值为该角色拥有的权限路径数组。支持通配符模式（如 /users/* 匹配所有用户子路径）。权限路径用于路由和组件级别的访问控制。',
+              )
+              .default({}),
           })
+          .describe(
+            'WinJS 权限控制插件配置。提供基于角色的权限管理系统（RBAC），支持路由级和组件级的访问控制，包含同步异步权限检查、路径模式匹配等功能。',
+          )
           .required();
       },
     },
