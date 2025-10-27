@@ -41,7 +41,7 @@ export default (api: IApi) => {
   });
 
   api.onGenerateFiles(() => {
-    const { roles = {} } = api.config.access || {};
+    const { roles = {} } = api.userConfig.access || {};
     const accessTpl = readFileSync(
       join(ACCESS_TEMPLATES_DIR, 'core.tpl'),
       'utf-8',
