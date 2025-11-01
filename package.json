@@ -57,7 +57,7 @@
     "@playwright/test": "^1.53.2",
     "@rsbuild/core": "^1.4.2",
     "@rslib/core": "^0.10.4",
-    "@types/node": "^22.15.34",
+    "@types/node": "^24.9.2",
     "@winner-fed/winjs": "*",
     "bumpp": "10.2.3",
     "playwright": "^1.53.2",
