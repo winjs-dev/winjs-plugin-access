@@ -59,7 +59,7 @@
     "@rslib/core": "^0.10.4",
     "@types/node": "^22.15.34",
     "@winner-fed/winjs": "*",
-    "bumpp": "10.2.3",
+    "bumpp": "11.1.0",
     "playwright": "^1.53.2",
     "simple-git-hooks": "^2.13.0",
     "typescript": "^5.8.3"
