@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@winner-fed/plugin-access": "workspace:*",
-    "typescript": "^5.0.3"
+    "typescript": "^5.9.3"
   }
 }
